@@ -1,0 +1,22 @@
+{
+  "name": "just-retry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm i && npm run build",
+    "test": "jest --coverage"
+
+  },
+  "author": "coding-chris-kao",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/async": "^3.2.12",
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4"
+  }
+}
