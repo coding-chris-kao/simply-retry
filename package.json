@@ -1,6 +1,6 @@
 {
   "name": "simply-retry",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a light-weight retry lib",
   "author": "coding-chris-kao",
   "homepage": "https://github.com/coding-chris-kao/simply-retry#just-retry",

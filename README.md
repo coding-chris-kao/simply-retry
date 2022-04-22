@@ -1,3 +1,3 @@
-# just-retry
+# simply-retry
 
 a light-weight retry lib
