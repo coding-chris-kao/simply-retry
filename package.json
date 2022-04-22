@@ -1,7 +1,7 @@
 {
   "name": "just-retry",
   "version": "1.0.0",
-  "description": "",
+  "description": "a light-weight retry lib",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -9,10 +9,9 @@
     "build": "tsc",
     "prepublishOnly": "npm i && npm run build",
     "test": "jest --coverage"
-
   },
   "author": "coding-chris-kao",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/async": "^3.2.12",
     "@types/jest": "^27.4.1",
