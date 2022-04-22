@@ -1,5 +1,5 @@
 {
-  "name": "just-retry",
+  "name": "simply-retry",
   "version": "1.0.0",
   "description": "a light-weight retry lib",
   "main": "dist/index.js",
