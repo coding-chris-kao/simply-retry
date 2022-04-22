@@ -1,17 +1,25 @@
 {
   "name": "simply-retry",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a light-weight retry lib",
+  "author": "coding-chris-kao",
+  "homepage": "https://github.com/coding-chris-kao/simply-retry#just-retry",
   "main": "dist/index.js",
-  "module": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "license": "MIT",
+  "keywords": [
+    "simply-retry",
+    "retry",
+    "promise",
+    "async",
+    "ts",
+    "typescript"
+  ],
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm i && npm run build",
     "test": "jest --coverage"
   },
-  "author": "coding-chris-kao",
-  "license": "MIT",
   "devDependencies": {
     "@types/async": "^3.2.12",
     "@types/jest": "^27.4.1",
